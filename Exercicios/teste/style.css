@@ -1,0 +1,33 @@
+@charset "UTF-8";
+@font-face {
+    font-family:"Minecraft";
+    src: url("fonts/Minecraft.ttf") format('truetype');
+}
+@font-face {
+    font-family: 'Old London';
+    src: url('fonts/OldLondon.ttf') format('truetype');
+}
+
+
+
+body {
+    background-image: linear-gradient(to left, brown, black);
+    background-attachment: fixed;
+    font-family: 'Old London';
+    color: brown;
+    
+}
+h1 {
+    font-family: 'Minecraft';
+    font-size: 50px;
+    font-weight: bold;
+    color: salmon;
+    
+}
+main {
+    background-color: black;
+    border-radius: 10px;
+    padding: 12px;
+    box-shadow: 2px 2px 15px brown;
+
+}

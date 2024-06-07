@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            text-align: justify;
+            
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 30px;
+            text-align: center;
+            text-shadow: 1px 1px 1px black;
+            border-radius: 13px;
+        }
+        
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 17px;
+            border-width: 5px;
+            border-style: double;
+            border-color: rgb(78, 78, 78);
+            
+        }
+
+        footer {
+            background-color: black;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            font-family: sans-serif;
+            font-weight: bold;
+            padding: 10px;
+            border-radius: 10px 10px 10px 10px;
+        }
+        
+        footer > p {
+            margin: 0px;
+        }
+
+        a > .marca {
+            text-decoration: none;
+            color: rgb(4, 178, 4);
+            font-weight: bold;
+
+        }
+
+        a > .marca:hover {
+            text-decoration: underline;
+        }
+        nav {
+            background-color: rgb(146, 144, 144);
+            padding: 3px;
+            box-shadow: 4px 3px 5px rgb(0, 0, 0);
+            
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+            text-align: center
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        aside > p.autor {
+            background-color: lightgray;
+            margin-left: 10px;
+            padding: 5px;
+        }
+        
+        p {
+            text-indent: 10px;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <aside>
+                    <h2>Noticias</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur alias libero ullam quasi? Expedita soluta id corporis alias eveniet quo quod aperiam corrupti earum unde, reiciendis cupiditate suscipit repellendus nulla.</p>
+                    <p class="autor">Artigo escrito por DIOGO R BENEDETTI</p>
+                    
+                </aside>
+            </article>
+            <article>
+
+            </article>
+
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pela <a href="#"><span class="marca">I - NeX</span></a></p>
+    </footer>
+
+</body>
+</html>
