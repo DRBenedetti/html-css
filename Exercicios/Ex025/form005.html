@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        input {
+            cursor: pointer;
+        }
+
+        .botao {
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Checktbox e radio</h1>
+    <form action="cadastro.php" method="get">
+        <fieldset>
+            <legend>Qual o seu sexo?</legend>
+            <input type="radio" name="sexo" id="imasc" value="M"> <label for="imasc">Masculino</label>
+            <input type="radio" name="sexo" id="ifem" value="F"> <label for="ifem" >Feminino</label>
+        </fieldset>
+        <fieldset>
+            <legend>Qual o seus esportes favoritos?</legend>
+            <div class="esporte">
+                <input type="checkbox" name="futbol" id="ifutbol" checked> <label for="ifutbol">Futebol</label> <br>
+                <input type="checkbox" name="hockey" id="ihockey" checked> <label for="ihockey">Hockey</label> <br>
+                <input type="checkbox" name="basquete" id="ibasquete"> <label for="ibasquete">Basquete</label> <br>
+                <input type="checkbox" name="basebol" id="ibasebol"> <label for="ibasebol">Basebol</label>
+            </div>
+        </fieldset>
+        <div class="botao">
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </div>
+    </form>
+</body>
+</html>
