@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+/*MQ*/
+
+@media screen and (min-width: 768px) {
+    #burguer {
+        display: none;
+    }
+
+    menu {
+        display: block;
+        
+    }
+
+    menu a {
+        width: 90px;
+        text-align: left;
+    }
+
+    menu ul{
+        display: flex;
+        list-style: none;
+        gap: 10px;
+    }
+
+    main {
+        width: 739px;
+    }
+}

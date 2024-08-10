@@ -16,6 +16,7 @@ header {
 }
 
 header h1 {
+    padding: 20px 0px;
     text-align: center;
 }
 
@@ -72,4 +73,5 @@ main p {
     margin-bottom: 20px;
     text-indent: 20px;
     text-align: justify;
+
 }
