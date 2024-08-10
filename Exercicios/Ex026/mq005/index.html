@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+    </header>
+    <menu id="lista">
+        <ul>
+            <li><a href="#">Opção 1</a></li>
+            <li><a href="#">Opção 2</a></li>
+            <li><a href="#">Opção 3</a></li>
+            <li><a href="#">Opção 4</a></li>
+            <li><a href="#">Opção 5</a></li>
+        </ul>
+    </menu>
+    <main>
+        <article>
+            <h2>Testando Media Queries</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti alias unde quibusdam? Eveniet qui, vel harum corrupti perferendis quas quae assumenda deserunt nam totam corporis quia fuga accusamus. Blanditiis, minima. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere nisi officiis maxime repudiandae. Consequatur beatae eius rerum facilis, ullam quibusdam perferendis et dolorum labore optio voluptate, officiis maxime deleniti asperiores! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi quam explicabo quia perferendis vero. Fugiat ipsum at odit molestias sapiente? Consequatur in deserunt vel eligendi nemo ea. Neque, tenetur ab!</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti alias unde quibusdam? Eveniet qui, vel harum corrupti perferendis quas quae assumenda deserunt nam totam corporis quia fuga accusamus. Blanditiis, minima. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere nisi officiis maxime repudiandae. Consequatur beatae eius rerum facilis, ullam quibusdam perferendis et dolorum labore optio voluptate, officiis maxime deleniti asperiores! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi quam explicabo quia perferendis vero. Fugiat ipsum at odit molestias sapiente? Consequatur in deserunt vel eligendi nemo ea. Neque, tenetur ab!</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti alias unde quibusdam? Eveniet qui, vel harum corrupti perferendis quas quae assumenda deserunt nam totam corporis quia fuga accusamus. Blanditiis, minima. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere nisi officiis maxime repudiandae. Consequatur beatae eius rerum facilis, ullam quibusdam perferendis et dolorum labore optio voluptate, officiis maxime deleniti asperiores! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi quam explicabo quia perferendis vero. Fugiat ipsum at odit molestias sapiente? Consequatur in deserunt vel eligendi nemo ea. Neque, tenetur ab!</p>
+        </article>
+    </main>
+    <script>
+        function clickMenu() {
+            if (lista.style.display == 'block') {
+                lista.style.display = 'none'
+            }
+            else {
+                lista.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
